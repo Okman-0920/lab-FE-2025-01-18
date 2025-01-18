@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids * Circles</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Grids&circles</h1>
+    </header>
+    <main>
+        <section id="product-list">
+            <h2>상품목록</h2>
+            <div class="product-card">
+                <img src="../src/assets/images/버티는-바덕.png" alt="Persist BaDuck">
+                <div class="product-details">
+                    <h3>버티는 바덕 (400G)</h3>
+                    <p>₩5,000 / 1ea</p>
+                </div>
+                <div class="product-actions">
+                    <input type="number" min="1" max="99" step="1" value="1"/>
+                    <button>추가</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="../src/assets/images/열심히-바덕.png" alt="Hard work BaDuck">
+                <div class="product-details">
+                    <h3>열심히 바덕 (400G)</h3>
+                    <p>₩6,000 / 1ea</p>
+                </div>
+                <div class="product-actions">
+                    <input type="number" min="1" max="99" step="1" value="1"/>
+                    <button>추가</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="../src/assets/images/이기는-바덕.png" alt="winning BaDuck">
+                <div class="product-details">
+                    <h3>이기는 바덕</h3>
+                    <p>₩8,000 / 1ea</p>
+                </div>
+                <div class="product-actions">
+                    <input type="number" min="1" max="99" step="1" value="1"/>
+                    <button>추가</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="../src/assets/images/일하는-바덕.png" alt="working BaDuck">
+                <div class="product-details">
+                    <h3>일하는 바덕</h3>
+                    <p>₩10,000 / 1ea</p>
+                </div>
+                <div class="product-actions">
+                    <input type="number" min="1" max="99" step="1" value="1"/>
+                    <button>추가</button>
+                </div>
+            </div>
+        </section>
+        <aside id="order-summary"> <!-- aside 는 사이드바 역할을 한다 -->
+            <h2>주문 요약</h2>
+            <ul id="order-list">
+                <il>
+                    버티는 바덕 - 4ea
+                    <button>취소</button>
+                </il>
+                <il>
+                    열심히 바덕 - 2ea
+                    <button>취소</button>
+                </il>
+            </ul>
+            <p>총계</p>
+            <button>결제하기</button>
+            <button>주문내역 확인하기</button>
+        </aside>
+    </main>
+</body>
+</html>
